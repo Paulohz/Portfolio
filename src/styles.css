@@ -9,7 +9,7 @@
 
 body {
   background: #282a36;
-  background: #0F141E;
+  
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
   /*overflow: hidden;*/
@@ -21,9 +21,11 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 0 auto;
+  margin: 15px auto;
   max-width: 800px;
 }
+
+
 
 .container h1 {
   margin: 15px 0;
@@ -45,5 +47,10 @@ body {
 @media screen and (max-width: 800px) {
   .card-container {
     grid-template-columns: 1fr;
+  }
+  #header {
+    flex-direction: column;
+    text-align: left;
+    height: 100%;
   }
 }

@@ -1,0 +1,28 @@
+#contato {
+    background-color: #686c99;
+    background: -moz-linear-gradient(top, rgba(104, 108, 153, 1) 0%, rgba(113, 118, 153, 1) 47%, rgba(104, 108, 153, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(104, 108, 153, 1)), color-stop(47%, rgba(113, 118, 153, 1)), color-stop(100%, rgba(104, 108, 153, 1)));
+    background: -webkit-linear-gradient(top, rgba(104, 108, 153, 1) 0%, rgba(113, 118, 153, 1) 47%, rgba(104, 108, 153, 1) 100%);
+    background: -o-linear-gradient(top, rgba(104, 108, 153, 1) 0%, rgba(113, 118, 153, 1) 47%, rgba(104, 108, 153, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(104, 108, 153, 1) 0%, rgba(113, 118, 153, 1) 47%, rgba(104, 108, 153, 1) 100%);
+    background: linear-gradient(to bottom, rgba(104, 108, 153, 1) 0%, rgba(113, 118, 153, 1) 47%, rgba(104, 108, 153, 1) 100%);
+    -webkit-box-shadow: inset 0px -5px 38px -5px rgba(0, 0, 0, 1);
+    -moz-box-shadow: inset 0px -5px 38px -5px rgba(0, 0, 0, 1);
+    box-shadow: inset 0px -5px 38px -5px rgba(0, 0, 0, 1);
+    -webkit-clip-path: polygon(0 0, 50% 18%, 100% 0, 100% 90%, 50% 100%, 0 90%);
+    clip-path: polygon(0 0, 50% 18%, 100% 0, 100% 100%, 50% 100%, 0 100%);
+  }
+
+
+#contato h1 {
+    padding: 130px 0 50px;
+    color: #fffaf8;
+}
+
+#contato p {
+    background-color: rgba(85, 26, 139, 0.3);
+    padding: 20px 0;
+    margin-top: 30px;
+    margin-bottom: 0;
+    text-align: center;
+}
